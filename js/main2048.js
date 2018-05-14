@@ -45,6 +45,7 @@ function newgame(){
     //在随机两个格子生成数字
     generateOneNumber();
     generateOneNumber();
+    //点击游戏开始，分数归零
     score =0;
     updateScore(score);
 }
