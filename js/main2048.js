@@ -45,6 +45,8 @@ function newgame(){
     //在随机两个格子生成数字
     generateOneNumber();
     generateOneNumber();
+    score =0;
+    updateScore(score);
 }
 
 function init(){
